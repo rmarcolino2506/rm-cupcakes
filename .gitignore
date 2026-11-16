@@ -1,0 +1,12 @@
+data.json
+do
+a-nuvem.sqlite
+do
+a-nuvem.sqlite-shm
+do
+a-nuvem.sqlite-wal
+rm-cupcakes.sqlite
+rm-cupcakes.sqlite-shm
+rm-cupcakes.sqlite-wal
+node_modules/
+.env
