@@ -1,4 +1,4 @@
-# Diagramas UML — RM-CupCakes
+# Diagramas UML — RM CupCakes
 
 Diagramas de análise para a aplicação web demonstrativa. Os fluxos representam somente as funcionalidades presentes no MVP.
 
@@ -8,7 +8,7 @@ Diagramas de análise para a aplicação web demonstrativa. Os fluxos representa
 flowchart LR
   cliente[Cliente]
   operador[Responsável pela loja]
-  subgraph sistema[RM-CupCakes — aplicação web]
+  subgraph sistema[RM CupCakes — aplicação web]
     catalogo((Consultar catálogo))
     busca((Buscar e filtrar cupcakes))
     sacola((Gerenciar sacola))

@@ -1,4 +1,4 @@
-# RM-CupCakes — loja demonstrativa de cupcakes
+# RM CupCakes — loja demonstrativa de cupcakes
 
 Projeto acadêmico do Projeto Integrador Transdisciplinar II, baseado nas histórias de usuário do PIT I.
 

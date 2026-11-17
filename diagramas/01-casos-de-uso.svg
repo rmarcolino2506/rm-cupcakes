@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#202a35}.title{font-size:27px;font-weight:700}.label{font-size:18px;font-weight:600}.small{font-size:15px}.box{fill:#f3f7f9;stroke:#416b83;stroke-width:2}.actor{stroke:#202a35;stroke-width:3;fill:none}.assoc{stroke:#647480;stroke-width:2;fill:none}</style>
+<text x="550" y="44" text-anchor="middle" class="title">RM CupCakes — Diagrama de Casos de Uso</text>
+<rect x="285" y="85" width="755" height="475" rx="12" class="box"/><text x="662" y="118" text-anchor="middle" class="label">Aplicação web RM CupCakes</text>
+<!-- actor client -->
+<circle cx="130" cy="250" r="18" class="actor"/><path d="M130 268v58m-29-35h58m-29 35-25 40m25-40 25 40" class="actor"/><text x="130" y="435" text-anchor="middle" class="label">Cliente</text>
+<!-- actor operator -->
+<circle cx="130" cy="485" r="18" class="actor"/><path d="M130 503v34m-24-20h48m-24 20-18 28m18-28 18 28" class="actor"/><text x="130" y="610" text-anchor="middle" class="small">Responsável pela loja</text>
+<!-- use cases -->
+<g fill="#fff" stroke="#416b83" stroke-width="2"><ellipse cx="510" cy="190" rx="170" ry="34"/><ellipse cx="830" cy="190" rx="170" ry="34"/><ellipse cx="510" cy="285" rx="170" ry="34"/><ellipse cx="830" cy="285" rx="170" ry="34"/><ellipse cx="510" cy="380" rx="170" ry="34"/><ellipse cx="830" cy="380" rx="170" ry="34"/><ellipse cx="670" cy="480" rx="170" ry="34"/></g>
+<g class="small" text-anchor="middle"><text x="510" y="196">Consultar catálogo</text><text x="830" y="196">Buscar e filtrar cupcakes</text><text x="510" y="291">Gerenciar sacola</text><text x="830" y="291">Revisar pedido</text><text x="510" y="386">Selecionar pagamento demonstrativo</text><text x="830" y="386">Registrar pedido</text><text x="670" y="486">Consultar pedidos registrados</text></g>
+<g class="assoc"><path d="M148 250H340M148 250L350 190M148 250L350 285M148 250L670 285M148 250L350 380M148 250L660 380M148 520L500 480"/></g>
+</svg>

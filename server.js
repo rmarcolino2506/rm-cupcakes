@@ -1,4 +1,4 @@
-// Back-end demonstrativo da RM-CupCakes. Requer Node.js 26 ou superior.
+// Back-end demonstrativo da RM CupCakes. Requer Node.js 26 ou superior.
 // Catálogo e pedidos persistem no SQLite local; pagamentos são simulados.
 const http = require('node:http');
 const fs = require('node:fs');
@@ -156,4 +156,4 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => console.log(`RM-CupCakes disponível em http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`RM CupCakes disponível em http://localhost:${PORT}`));

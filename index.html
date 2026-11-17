@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#fff8f3"><title>RM-CupCakes</title>
+<meta name="theme-color" content="#fff8f3"><title>RM CupCakes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,8 +15,8 @@
 </style>
 </head>
 <body>
-<nav class="nav"><a class="brand" href="#inicio">RM-<span>CupCakes</span></a><div class="navlinks"><a href="#inicio">Início</a><a href="#catalogo">Cardápio</a><a href="#sobre">Nossa Loja</a><a href="#pedidos" id="openOrders">Meus Pedidos</a></div><button class="cartbtn" id="openCart">Sacola <b id="cartCount">0</b></button></nav>
-<header class="hero" id="inicio"><div><div class="eyebrow">Loja de Cupcakes</div><h1>Escolha seu sabor favorito.</h1><p>Cupcakes artesanais feitos diariamente, consulte o cardápio e monte seu pedido.</p><button class="primary" onclick="document.querySelector('#catalogo').scrollIntoView({behavior:'smooth'})">Ver cardápio</button></div></header>
+<nav class="nav"><a class="brand" href="#inicio">RM <span>CupCakes</span></a><div class="navlinks"><a href="#inicio">Início</a><a href="#catalogo">Cardápio</a><a href="#sobre">Nossa Loja</a><a href="#pedidos" id="openOrders">Meus Pedidos</a></div><button class="cartbtn" id="openCart">Sacola <b id="cartCount">0</b></button></nav>
+<header class="hero" id="inicio"><div><div class="eyebrow">Loja de Cupcakes</div><h1>Escolha seu sabor favorito.</h1><p>Cupcakes artesanais feitos diariamente, consulte o cardápio e monte seu pedido.</p><button class="primary" onclick="document.querySelector('#catalogo').scrollIntoView({behavior:'smooth'})">Cardápio</button></div></header>
 <main class="wrap" id="catalogo"><div class="sectionhead"><div><div class="eyebrow">Nosso cardápio</div><h2>Escolha o seu favorito!</h2><p>Assados fresquinhos todos os dias.</p></div></div><div class="filters"><input id="search" type="search" placeholder="⌕  Buscar sabor ou ingrediente..." aria-label="Buscar cupcakes"><button class="filter active" data-cat="Todos">Todos</button><button class="filter" data-cat="Tradicional">Tradicionais</button><button class="filter" data-cat="Vegano">Veganos</button><button class="filter" data-cat="Sem glúten">Sem glúten</button></div><div class="grid" id="products"></div></main>
 <section class="wrap" id="pedidos" hidden><div class="sectionhead"><div><div class="eyebrow">Área da loja</div><h2>Pedidos recebidos</h2><p>Pedidos registrados nesta demonstração.</p></div><button class="filter" id="refreshOrders">Atualizar lista</button></div><div id="ordersList"></div></section>
 <section class="features" id="sobre"><div class="feature"><strong>Ingredientes Selecionados</strong>Qualidade em cada mordida.</div><div class="feature"><strong>Produção Artesanal</strong>Feitos diariamente.</div><div class="feature"><strong>Entrega Cuidadosa</strong>Seu pedido chega perfeito.</div></section><footer class="footer"><b>Projeto Integrador Transdisciplinar II</b> · Desenvolvido por <b>Ricardo Henrique de Melo Marcolino</b>.</footer>

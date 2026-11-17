@@ -1,33 +1,23 @@
-# Registro de testes — RM-CupCakes
+# Registro de testes — RM CupCakes
 
-Preencher após executar o aplicativo. Anotar os resultados observados e a data real de cada teste. Se a equipe fizer os testes, identificar os participantes como integrantes da equipe, sem atribuí-los a colegas que não participaram.
+**Data informada para os testes:** 16/11/2026. Registrar apenas os resultados e participantes que efetivamente realizaram a avaliação desta versão.
 
-| # | Responsável | Data | O que testou e funcionou | O que não funcionou / correção | Funcionalidade não testada |
-|---|---|---|---|---|---|
-| 1 | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 2 | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 3 | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 4 | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 5 | A preencher | A preencher | A preencher | A preencher | A preencher |
-
-## Roteiro rápido
-
-1. Abrir o catálogo e verificar se os produtos com estoque aparecem.
-2. Pesquisar por “chocolate” e conferir o resultado.
-3. Selecionar a categoria “Veganos”.
-4. Adicionar um item, aumentar e diminuir a quantidade; conferir o total.
-5. Tentar finalizar com endereço vazio e conferir a validação do navegador.
-6. Preencher o endereço, selecionar pagamento demonstrativo, revisar e confirmar.
-7. Atualizar a página e conferir o catálogo; verificar que o estoque do item pedido foi reduzido.
-8. Consultar `http://localhost:3000/api/orders` e conferir o pedido salvo.
+| # | Participante | O que testou e funcionou | Problema relatado | Funcionalidade não testada / observação |
+|---|---|---|---|---|
+| 1 | Nicolas Loguércio Nunes | Filtrou sabores por Todas, Tradicionais, Veganos e Sem glúten. | Não identificava os cupcakes adicionados sem consultar a sacola do menu. | Aplicação de cupom de desconto não implementada. |
+| 2 | Alexandre Batista de Morais | Usou o menu de navegação para ir às seções. | O cardápio não apresentou cupcakes. | Histórico de pedidos não foi testado pelo participante. A aplicação dispõe de uma listagem demonstrativa de pedidos. |
+| 3 | Maria Helena Ferrari | Adicionou sabores e concluiu o pedido. | A seleção de PIX foi recusada como forma de pagamento inválida. | Cálculo de frete por CEP/região não implementado. |
+| 4 | Marcos Pereira dos Santos | Informou endereço, selecionou pagamento e concluiu o pedido. | Nenhuma falha relatada no que foi testado. | Personalização adicional do cupcake não implementada. |
+| 5 | Carlos Eduardo Grassano | Adicionou e removeu cupcakes da sacola; não finalizou o pedido. | Nenhuma falha relatada no que foi testado. | Cobrança real por cartão não implementada; os pagamentos são demonstrativos. |
 
 ## Laudo de qualidade
 
-**Data da execução:** a preencher.  
-**Versão avaliada:** a preencher.
+A avaliação relatou três problemas: dificuldade para identificar itens na sacola, cardápio vazio e rejeição da opção PIX. Na versão atual, o card do produto mostra a quantidade na sacola, o catálogo lista os cupcakes indisponíveis com essa indicação e o servidor aceita PIX demonstrativo. A confirmação apresenta uma chave fictícia e o total; não ocorre cobrança real.
 
-| Evidência | Problema observado | Correção aplicada | Situação após correção |
+| Evidência a anexar | Problema relatado | Correção na versão atual | Reteste/evidência |
 |---|---|---|---|
-| Captura de tela ou descrição | A preencher | A preencher | A preencher |
+| Captura do cardápio vazio e do catálogo atualizado | Produtos não apareciam no cardápio. | Catálogo apresenta produtos e marca os sem estoque como indisponíveis, sem botão de adicionar. | Anexar captura da versão atual. |
+| Captura da sacola e do card do produto | Não era fácil saber quais itens estavam na sacola. | Quantidade adicionada aparece no próprio card; a interface é atualizada ao salvar a sacola. | Anexar captura da versão atual. |
+| Captura do erro e da confirmação PIX | Servidor recusava PIX. | Back-end aceita PIX; confirmação mostra chave fictícia e total do pedido. | Anexar captura da versão atual; pagamento é apenas simulado. |
 
-Insira capturas de tela feitas durante os testes na versão final do relatório. Não registre como defeito corrigido algo que não tenha sido reproduzido e verificado.
+Os participantes não relataram falhas nos testes 4 e 5 dentro do escopo que verificaram. No teste 2, o histórico não foi testado pelo participante; a aplicação possui uma listagem demonstrativa de pedidos. Inserir evidências capturadas na versão atualizada antes da entrega.

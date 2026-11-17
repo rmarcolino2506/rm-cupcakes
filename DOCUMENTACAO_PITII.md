@@ -1,4 +1,4 @@
-# Projeto Integrador Transdisciplinar II — RM-CupCakes
+# Projeto Integrador Transdisciplinar II — RM CupCakes
 
 ## Identificação
 - **Estudante:** Ricardo Henrique de Melo Marcolino
@@ -24,7 +24,7 @@ O PIT I propôs representar um aplicativo de vendas de cupcakes por meio de caso
 | Cadastro/login, entrega real e pagamento real | Não implementados |
 
 ## Diagramas UML
-Os diagramas de casos de uso, classes e sequência do fluxo de registro de pedido estão em [DIAGRAMAS_UML.md](DIAGRAMAS_UML.md). Foram limitados às funções presentes no protótipo para manter a documentação coerente com a implementação.
+Os diagramas de casos de uso, classes e sequência do fluxo de registro de pedido estão em [DIAGRAMAS_UML.md](DIAGRAMAS_UML.md). As especificações textuais dos casos de uso expandidos estão em [CASOS_DE_USO_EXPANDIDOS.md](CASOS_DE_USO_EXPANDIDOS.md). Os artefatos foram limitados às funções presentes no protótipo para manter a documentação coerente com a implementação.
 
 ## Tecnologias e execução
 | Campo | Informação |
